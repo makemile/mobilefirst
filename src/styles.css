@@ -298,16 +298,85 @@ height: 100%;
 }
 
 .product-detail--title p{
-    color: #808080;
-    font-weight: 500;
+color: #808080;
+font-weight: 500;
 font-size: 1.5rem;
 line-height: 1.8rem;
 text-align: center;
 margin-bottom: 20px;
 }
 
+.product-detail--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+
+}
+
 .product-detail--card .clock{
-    background-image: url(/src/assets/icons/clock.svg);
+    display: inline-block;
+    background-image: url('/src/assets/icons/clock.svg');
     width: 20px;
     height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail--card .eyes{
+    display: inline-block;
+    background-image: url('/src/assets/icons/eye.svg');
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail--card .dollar{
+    display: inline-block;
+    background-image: url('/src/assets/icons/dollar-sign.svg');
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail--card .check{
+    display: inline-block;
+    background-image: url('/src/assets/icons/check-circle.svg');
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail--card .product--card-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-bottom: 15px;
+}
+
+.product-detail--card .prodcut--card-body{
+    color: #808080;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
 }
